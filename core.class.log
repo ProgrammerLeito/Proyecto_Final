@@ -1,0 +1,272 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910298661@s.whatsapp.net',
+    fromMe: false,
+    id: 'E445FB629A4D36CF17CFF8E0CADBC62F',
+    participant: undefined
+  },
+  messageTimestamp: 1709006160,
+  pushName: 'Irguin Alonso More',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51910298661'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  keyword: 'key_af753926-d295-4b7c-a14f-7aaec52e15f7',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b29c1ecba12b754a333cdb4dedc00a1b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17ca6e84-a22c-45dc-afe6-4ddfce568a7d',
+  keyword: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a65864ac2ac1240b1f45569ffdb8ea27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910298661@s.whatsapp.net',
+    fromMe: false,
+    id: '940E0C24D583153214AFE6A9B1BA9C35',
+    participant: undefined
+  },
+  messageTimestamp: 1709006182,
+  pushName: 'Irguin Alonso More',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuevita',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuevita',
+  from: '51910298661'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51910298661@s.whatsapp.net',
+    fromMe: false,
+    id: '0BE9872E7A5BE937774CC3FFDDD268F3',
+    participant: undefined
+  },
+  messageTimestamp: 1709006188,
+  pushName: 'Irguin Alonso More',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51910298661'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  keyword: 'key_af753926-d295-4b7c-a14f-7aaec52e15f7',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b29c1ecba12b754a333cdb4dedc00a1b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17ca6e84-a22c-45dc-afe6-4ddfce568a7d',
+  keyword: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a65864ac2ac1240b1f45569ffdb8ea27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943928884@s.whatsapp.net',
+    fromMe: false,
+    id: 'D848BCF91DE130CBA6ABE9C29ACCAB26',
+    participant: undefined
+  },
+  messageTimestamp: 1709006274,
+  pushName: 'Bot Prueba',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '51943928884'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943928884@s.whatsapp.net',
+    fromMe: false,
+    id: 'D848BCF91DE130CBA6ABE9C29ACCAB26',
+    participant: undefined
+  },
+  messageTimestamp: 1709006275,
+  pushName: 'Bot Prueba',
+  broadcast: false,
+  message: Message {
+    conversation: 'ole',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ole',
+  from: '51943928884'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  keyword: 'key_af753926-d295-4b7c-a14f-7aaec52e15f7',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b29c1ecba12b754a333cdb4dedc00a1b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17ca6e84-a22c-45dc-afe6-4ddfce568a7d',
+  keyword: 'ans_e95be630-5efb-4da8-aee5-20de11feb76e',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a65864ac2ac1240b1f45569ffdb8ea27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943928884@s.whatsapp.net',
+    fromMe: false,
+    id: 'BAE521A8DBE27DC8',
+    participant: undefined
+  },
+  messageTimestamp: 1709006276,
+  pushName: 'Bot Prueba',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '🙌 Hola bienvenido a este *Chatbot*' }
+  },
+  body: '🙌 Hola bienvenido a este *Chatbot*',
+  from: '51943928884'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943928884@s.whatsapp.net',
+    fromMe: false,
+    id: 'BAE5AC7EE1383B51',
+    participant: undefined
+  },
+  messageTimestamp: 1709006276,
+  pushName: 'Bot Prueba',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+        '👉 *doc* para ver la documentación\n' +
+        '👉 *gracias*  para ver la lista de videos\n' +
+        '👉 *discord* unirte al discord'
+    }
+  },
+  body: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  from: '51943928884'
+}
