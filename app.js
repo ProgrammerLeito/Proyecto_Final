@@ -24,6 +24,7 @@ const MYSQL_DB_PORT = '3306'
  *
  * Primero declaras los submenus 1.1 y 2.1, luego el 1 y 2 y al final el principal.
  */
+const flowTerciario = addKeyword(['causa', 'oish']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
