@@ -1,5 +1,6 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 const {delay} = require('../../metodos/metodos.js')
+
 const flowCusco= addKeyword(["1", "cusco"], {sensitive: false})
     .addAction( async ( ctx, { provider, flowDynamic } ) => {
         await delay(3000)
@@ -12,6 +13,7 @@ const flowCusco= addKeyword(["1", "cusco"], {sensitive: false})
         "Cusco también es la puerta de entrada a Machu Picchu. Si buscas autenticidad," + 
         " historia y belleza natural, Cusco es un destino imperdible en Perú ✈️")
         await provider.sendImage(`${ctx.from}@s.whatsapp.net`, "src/images/cusco_img.jpg")
+        await flowDynamic("*(R)* para regresar al menú");
     })
 
 module.exports = {flowCusco} 

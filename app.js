@@ -6,6 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const {delay} = require('./metodos/metodos.js')
 const {flowDestinos} = require('./flows/flowDestinos.js')
+const {flowMenu} = require('./flows/flowMenu.js')
 
 const regex = "^(hola|Hola|wenas|buenas|ole|alo)$";
 
@@ -15,12 +16,12 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         await delay(1000)
         await provider.sendImage(`${ctx.from}@s.whatsapp.net`, 'src/images/turismoVerde_logo.jpg')
     })
-    .addAnswer("¿En que puedo ayudarte?\n *(1)* Destinos 🏞️🏝️\n *(2)* Reservar ✈️🕑\n *(3)* Salir ❌\n\nEscriba la opcion que desea:", { capture: true },
+    .addAnswer("¿En que puedo ayudarte?\n\n *(1)* Destinos 🏞️🏝️\n *(2)* Reservar ✈️🕑\n *(3)* Salir ❌\n\nEscriba la opcion que desea:", { capture: true },
         null, [flowDestinos]);
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowMenu])
     const adapterProvider = createProvider(BaileysProvider)
     createBot({
         flow: adapterFlow,
