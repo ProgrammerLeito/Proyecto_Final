@@ -8,13 +8,18 @@ const {delay} = require('./metodos/metodos.js')
 const {flowDestinos} = require('./flows/flowDestinos.js')
 const {flowMenu} = require('./flows/flowMenu.js')
 
+const User = require('./models/User.js')
+const {insertToUsuarios} = require('./crudjson/insert.js');
+
 const regex = "^(hola|Hola|wenas|buenas|ole|alo)$";
 
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAction(async (ctx, { provider, flowDynamic }) => {
         await flowDynamic(`Hola *${ctx.pushName}* gracias por contactar con "TURISMO VERDE" 🌄`)
-        await delay(1000)
-        await provider.sendImage(`${ctx.from}@s.whatsapp.net`, 'src/images/turismoVerde_logo.jpg')
+        user = new User(ctx.pushName, ctx.from);
+        insertToUsuarios(user);
+        await delay(1000);
+        await provider.sendImage(`${ctx.from}@s.whatsapp.net`, 'src/images/turismoVerde_logo.jpg');
     })
     .addAnswer("¿En que puedo ayudarte?\n\n *(1)* Destinos 🏞️🏝️\n *(2)* Reservar ✈️🕑\n *(3)* Salir ❌\n\nEscriba la opcion que desea:", { capture: true },
         null, [flowDestinos]);

@@ -2,15 +2,15 @@
   key: {
     remoteJid: '51988656269@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0FABE8EA2D789805FCF',
+    id: '3EB08188A4E31CD7E9B3BD',
     participant: undefined
   },
-  messageTimestamp: 1709176108,
+  messageTimestamp: 1709251934,
   pushName: 'Eduardo',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'ofsad',
+      text: 'lol',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -19,12 +19,12 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'ofsad',
+  body: 'lol',
   from: '51988656269'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_88a89cd6-6a72-4547-9f55-2fefb20bd11c',
-  keyword: 'key_0bf56dae-b280-4d77-8129-b1510d0c7d54',
+  ref: 'ans_8ee51b03-19c2-49f1-a5a9-442a7ab02f47',
+  keyword: 'key_b29fe94c-34eb-4604-a62f-dd66d8d59e3b',
   answer: '__call_action__',
   options: {
     media: null,
@@ -38,11 +38,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c03805f534e826e7d158372232ef6f47'
+  refSerialize: 'e9ff1c96132c850362b08425aef549d2'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e27b0ab9-0c4f-4fe7-9cb0-641be3223951',
-  keyword: 'ans_88a89cd6-6a72-4547-9f55-2fefb20bd11c',
+  ref: 'ans_90a75d13-b47b-4557-bb7f-e3ba496c7954',
+  keyword: 'ans_8ee51b03-19c2-49f1-a5a9-442a7ab02f47',
   answer: '¿En que puedo ayudarte?\n' +
     '\n' +
     ' *(1)* Destinos 🏞️🏝️\n' +
@@ -62,209 +62,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '7ad55f859b4fdab4cab47eda08ef1f4a'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51988656269@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0A54EBCD0A3FBCA45CA',
-    participant: undefined
-  },
-  messageTimestamp: 1709176115,
-  pushName: 'Eduardo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '51988656269'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3e2c6b08-0b1f-4379-8075-e0a8ae2586fe',
-  keyword: 'key_63675868-6fc4-475f-b254-837601ff4c48',
-  answer: 'Estos son nuestros destinos: \n' +
-    '\n' +
-    '✅ *(1)* Cusco \n' +
-    '✅ *(2)* Arequipa\n' +
-    '✅ *(3)* Ica\n' +
-    '\n' +
-    'Escribe el *numero* del destino para ver mas información.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'fcfe5c2b92b8feb88ba3336df8360fe6'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51988656269@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB01478FB4BC45A4C111F',
-    participant: undefined
-  },
-  messageTimestamp: 1709176118,
-  pushName: 'Eduardo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '51988656269'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9a14b07c-0c21-42ec-9173-70ccfd25a9b6',
-  keyword: 'key_93948b39-f3a1-4ec5-a290-abfc0adfb96b',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '6e6ea80a207e752002126969096df7ab'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51988656269@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0435B0AC0ADBD2596B6',
-    participant: undefined
-  },
-  messageTimestamp: 1709176134,
-  pushName: 'Eduardo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'r',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'r',
-  from: '51988656269'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c8c78090-5050-4852-b03f-33fb9c8c5fca',
-  keyword: 'key_c5ba34ee-6256-4a8e-aecb-54bf78ced54e',
-  answer: '¿En que puedo ayudarte?\n' +
-    '\n' +
-    ' *(1)* Destinos 🏞️🏝️\n' +
-    ' *(2)* Reservar ✈️🕑\n' +
-    ' *(3)* Salir ❌\n' +
-    '\n' +
-    'Escriba la opcion que desea:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '15fe820c761b3b3c4973daedfca3ac28'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51988656269@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0D90C36C50C44F0F2C9',
-    participant: undefined
-  },
-  messageTimestamp: 1709176184,
-  pushName: 'Eduardo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '51988656269'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51988656269@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB00DEDFD54C23FEBA73E',
-    participant: undefined
-  },
-  messageTimestamp: 1709176188,
-  pushName: 'Eduardo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '3',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
-  from: '51988656269'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b151e32c-ec8a-4f7d-9001-c7f410c56c1b',
-  keyword: 'key_3526f408-963e-4053-b534-c69a18186895',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1c325b802240b9fbc26b899094b0941e'
+  refSerialize: '7c696fc0d32971af5168c82261435889'
 }
